@@ -1,0 +1,46 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "codebender828",
+      "name": "Jonathan Bakebwa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21237954?v=4",
+      "profile": "https://jbakebwa.dev",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "lynancy",
+      "name": "nancyl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22240479?v=4",
+      "profile": "https://github.com/lynancy",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "duongnnb",
+      "name": "Nguyen Duong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35083061?v=4",
+      "profile": "https://github.com/duongnnb",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "marketplace-storefront",
+  "projectOwner": "mirrorworld-universe"
+}

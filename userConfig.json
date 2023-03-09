@@ -1,0 +1,10 @@
+{
+  "auctionHouse": "Please enter your Auction House Address",
+  "collections": ["Please enter your Collection ID"],
+  "xApiKey": "Please enter your API Key",
+  "serviceFee": "Please enter your service fee (Recommended 4.25)",
+  "currencyOption": "Please enter your payment token",
+  "name": "Please enter your storefront name",
+  "logo": "Please enter your logo image URL",
+  "network": "Please enter your selected network "
+}

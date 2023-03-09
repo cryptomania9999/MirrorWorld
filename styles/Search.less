@@ -1,0 +1,116 @@
+.search_page {
+  font-family: "Poppins";
+  font-style: normal;
+  padding-top: 10px;
+  .no_content {
+    text-align: center;
+    margin: 220px auto;
+    z-index: 999;
+  }
+  input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 8px 10px 16px;
+    gap: 8px;
+    width: 275px;
+    height: 41px;
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 39px;
+    margin: 0px 10px 0px 20px;
+    padding-left: 41px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    outline: none;
+    float: left;
+  }
+  input:hover,
+  input::selection,
+  input:focus,
+  input:focus-visible,
+  input:focus-within {
+    border-color: #f0f0f0;
+  }
+  input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #888888;
+    opacity: 0.3;
+  }
+  input {
+    background-image: url("/images/icon/icon_search.svg");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 16px 16px;
+  }
+  span {
+    float: right;
+    line-height: 41px;
+    margin-right: 20px;
+    font-size: 14px;
+    /* identical to box height */
+    color: #386eec;
+    cursor: pointer;
+  }
+  .search-result {
+    position: absolute;
+    width: 100%;
+    // left: 50%;
+    // margin-left: -187.5px;
+    height: 723px;
+    top: 56px;
+    background: #ffffff;
+    // border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+    .search_page_title {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      /* identical to box height */
+      color: #000000;
+      margin-bottom: 10px;
+    }
+    .search_page_item {
+      width: 335px;
+      height: 45px;
+      img {
+        margin-top: 7.5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 2px;
+        overflow: hidden;
+        background-color: pink;
+        float: left;
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 45px;
+        /* identical to box height */
+        /* Black */
+        color: rgba(0, 0, 0, 0.6);
+        // opacity: 0.6;
+        float: left;
+        margin: 0;
+        margin-left: 10px;
+        width: 295px;
+        border-bottom: 1px solid #f6f6f6;
+      }
+    }
+  }
+  .input_search_container {
+    width: 275px;
+    height: 41px;
+    float: left;
+    position: relative;
+    .search_clear {
+      position: absolute;
+      right: -6px;
+      top: 12px;
+    }
+  }
+}
